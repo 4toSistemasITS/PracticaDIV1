@@ -1,0 +1,123 @@
+div { height: 600px; }
+div.side {        
+    background-color: #003366;
+    -webkit-box-shadow: 30px 0px 20px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 12px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 12px 0px 5px 0px rgba(0,0,0,0.1);
+ z-index: 100;
+    width: 25%;
+    position: relative;
+    float: left;
+    color: #ffffff
+}
+div.side1 {        
+    background-color: #003366;
+    width: 25%;
+   -webkit-box-shadow: -12px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -12px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: -12px 0px 5px 0px rgba(0,0,0,0.1);
+    float: left;    
+}
+h3{
+    color: #ffffff
+}
+div#range {
+    background-color: #FFCC00;
+    width: 50%;
+    float: left;
+}
+form#form1 {
+    color: red;
+}
+form#form2 {
+    color: #ffffff
+}
+div#hola {
+    
+    float: left;
+    width: 100%;
+    height: 40px;
+}
+span {
+    width:100%;
+    text-align: center;
+    display: block;
+    margin: 3px auto;
+    /* background-color: gold; */
+}
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {background-color: #ddd;}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {background-color: #ccc;}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.table-editable {
+  position: relative;
+  
+  .glyphicon {
+    font-size: 20px;
+  }
+}
+
+.table-remove {
+  color: #700;
+  cursor: pointer;
+  
+  &:hover {
+    color: #f00;
+  }
+}
+
+.table{
+    background-color: #ffffff
+}
+.table-up, .table-down {
+  color: #007;
+  cursor: pointer;
+  
+  &:hover {
+    color: #00f;
+  }
+}
+
+.table-add {
+  color: #070;
+  cursor: pointer;
+  position: absolute;
+  top: 8px;
+  right: 0;
+  
+  &:hover {
+    color: #0b0;
+  }
+}

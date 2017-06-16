@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang='es'>
+<head>
+<meta charset="utf-8">
+<title>UTPL DEMO</title>
+<script type="text/javascript" src="functions.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="start" class="side">
+<center>
+ 	<img src="logoutpl.png"  alt="Logo Kradac" />
+    
+    <br>
+    <form>
+    <br>
+    Ejercicio<br>
+    <select name="cars">
+  	<option value="volvo">Ejercicio 1</option>
+  	<option value="saab">Ejercicio 2</option>
+  	<option value="fiat">Ejercicio 3</option>
+  	<option value="audi">Ejercicio 4</option>
+	</select>
+    </form>
+    <br>
+    <br>
+    <form>
+    <br>
+    DATOS<br>
+    Masa (gr)<input></input><br><br>
+    Altura (cm)<input></input><br><br>
+    Amplitud *<input></input><br><br>
+    <button type="button" onclick="alert('Hello World!')">Ejecutar</button>
+    </form>
+    <br>
+    <br>
+    <span>Fecha:</span>
+    <span>Hora:</span>
+    </center>
+</div>
+<div id="range">
+	<center>
+	<h2>PENDULO SIMPLE</h2>
+	<div>
+		<iframe width="90%" height="315" src="https://www.youtube.com/embed/otA-WgcB8Gk" frameborder="0" allowfullscreen></iframe>
+	<form>
+    <br>    
+    Tiempo Restante:<output name="x" for="a b">   00:12:00</output><br><br>
+    <button type="button" onclick="alert('Hello World!')">Finalizar Practica</button>
+    </form>
+	</div>
+	</center>	
+</div>
+<div id="end" class="side1">
+<center>
+<h3>Estudiantes</h3>
+<table class="table">	
+      <tr>
+        <th>Juan Perez</th>        
+      </tr>
+      <tr>
+        <th>Juan Perez</th>        
+      </tr>
+      <tr>
+        <th>Juan Perez</th>        
+      </tr>
+    </table>
+    </center>
+    <br>
+    <ul class="tab">
+  <li><a href="#" class="tablinks" onclick="openCity(event, 'London')">Resultados</a></li>
+  <li><a href="#" class="tablinks" onclick="openCity(event, 'Paris')">Análisis</a></li>
+  <li><a href="#" class="tablinks" onclick="openCity(event, 'Tokyo')">Test</a></li>
+</ul>
+
+<div id="London" class="tabcontent">
+  <h3>Resultados</h3>
+  <form id="form1">
+    <br>    
+    Osc 1<input size="6"></input>Osc 2<input size="6"></input><br><br>
+    Osc 3<input size="6"></input>Osc 4<input size="6"></input><br><br>
+    Osc 5<input size="6"></input>Osc 6<input size="6"></input><br><br>    
+    Osc 7<input size="6"></input>Osc 8<input size="6"></input><br><br>
+	Osc 9<input size="6"></input>Osc 10<input size="6"></input><br><br>
+    Total<input></input>
+    </form>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3>Resultado Prácticas</h3>
+  <div id="table" class="table-editable">    
+    <table class="table">
+      <tr>
+        <th>Nro</th>
+        <th>Altura</th>
+        <th>Masa</th>
+        <th>Tiempo T.</th>
+        <th>Periodo</th>
+      </tr>
+      <tr>
+        <td contenteditable="true">1</td>
+        <td contenteditable="true">40</td>
+        <td contenteditable="true">25</td>
+        <td contenteditable="true">10.2</td>
+        <td contenteditable="true">0</td>        
+      </tr>
+      <tr>
+        <td contenteditable="true">2</td>
+        <td contenteditable="true">40</td>
+        <td contenteditable="true">25</td>
+        <td contenteditable="true">10.2</td>
+        <td contenteditable="true">0</td>        
+      </tr>
+      <tr>
+        <td contenteditable="true">3</td>
+        <td contenteditable="true">40</td>
+        <td contenteditable="true">25</td>
+        <td contenteditable="true">10.2</td>
+        <td contenteditable="true">0</td>        
+      </tr>
+      <tr>
+        <td contenteditable="true">4</td>
+        <td contenteditable="true">40</td>
+        <td contenteditable="true">25</td>
+        <td contenteditable="true">10.2</td>
+        <td contenteditable="true">0</td>        
+      </tr>
+      <tr>
+        <td contenteditable="true">5</td>
+        <td contenteditable="true">40</td>
+        <td contenteditable="true">25</td>
+        <td contenteditable="true">10.2</td>
+        <td contenteditable="true">0</td>        
+      </tr>
+      <tr>
+        <td contenteditable="true">6</td>
+        <td contenteditable="true">40</td>
+        <td contenteditable="true">25</td>
+        <td contenteditable="true">10.2</td>
+        <td contenteditable="true">0</td>        
+      </tr>
+    </table>
+  </div>
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Autoevaluación</h3>  
+   <form id=form2>
+    <br>    
+    1.¿Como influye la longitud  de un péndulo en su periodo de oscilación?Explique<textarea rows="4" cols="35"></textarea><br>
+    2.¿Como influye la longitud  de un péndulo en su periodo de oscilación?Explique<textarea rows="4" cols="35"></textarea><br>    
+    </form>
+</div>
+</div>
+<div id='hola'> 
+<center>
+Copyright © 2016, UTPL 
+</center>
+</div>
+</body>
+</html>
